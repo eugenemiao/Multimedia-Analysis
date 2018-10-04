@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Project 2 Visualization Dashboard</title>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="../css/styles.css" media="screen">
+
+  </head>
+
+  <body>
+    <!-- Start of navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid navbar-custom">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="col-xs-9 phone-nav">
+              <a class="navbar-brand" href="../index.html" id="logo">Home</a>
+            </div>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="toprated.html">Highest Rated Movies</a></li>
+                    <li><a href="hist.html">Histogram</a></li>
+                    <li><a href="profit.html">Profitable Movies by Genre</a></li>
+                    <li><a href="topten.html">Top 10 Profitable Movies</a></li>
+                    <li><a href="rating.html">Top Rated Movies</a></li>
+                    <li><a href="spotify.html">Spotify Holiday's</a></li>
+                    <li><a href="shapeofyou.html">Ed Sheeran</a></li>
+                </ul>
+              </li>
+              <li><a href="../../site/index.html">Spotify Map</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Start of container -->
+    <div class="container">
+      <section class="row">
+        <div class="col-md-8">
+          <article class="description-content">
+            <h1 class="description-header">Spotify Graphs</h1>
+            <hr class="description-hr"/>
+            <!-- List of all spotify graphs-->
+            <img src="../../spotify_graphs/lil_peep.png" alt="" class="img-responsive" vspace="40"/>
+            <img src="../../spotify_graphs/tom_petty.png" alt="" class="img-responsive" vspace="40"/>
+            <img src="../../spotify_graphs/linkin_park.png" alt="" class="img-responsive" vspace="40"/>
+
+
+            <img src="../../spotify_graphs/4_20.png" alt="" class="img-responsive" vspace="40"/>
+            <p> </p>
+            <img src="../../spotify_graphs/christmas.png" alt="" class="img-responsive" vspace="40"/>
+            <p> </p>
+            <img src="../../spotify_graphs/easter.png" alt="" class="img-responsive" vspace="40"/>
+            <p> </p>
+            <img src="../../spotify_graphs/fathers_day.png" alt="" class="img-responsive" vspace="40"/>
+            <p> </p>
+            <img src="../../spotify_graphs/fourth_july.png" alt="" class="img-responsive" vspace="40"/>
+            <p> </p>
+            <img src="../../spotify_graphs/halloween.png" alt="" class="img-responsive" vspace="40"/>
+            <p> </p>
+            <img src="../../spotify_graphs/mothers_day.png" alt="" class="img-responsive" vspace="40"/>
+            <p> </p>
+            <img src="../../spotify_graphs/new_year_eve.png" alt="" class="img-responsive" vspace="40"/>
+            <p> </p>
+            <img src="../../spotify_graphs/thanksgiving.png" alt="" class="img-responsive" vspace="40"/>
+            <p> </p>
+            <img src="../../spotify_graphs/valentines.png" alt="" class="img-responsive" vspace="50"/>
+            <p> </p>
+            
+          </article>
+        </div>
+        <div class="col-md-4">
+
+          <!-- Start of Visualizations imageNav Area -->
+          <section id="imageNav-area">
+            <div class="imageNav-content">
+              <h2 class="imageNav-header">Visualizations</h2>
+              <hr />
+              <div id="images">
+                <a href="toprated.html"><img src="../../Images/highest_rated_movies_genre.png" alt="Highest Rated Movies Main Genres" class="imageNav-photo"></a>
+                <a href="hist.html"><img src="../../Images/hist_movies.png" alt="Historgram of Profititable Movies" class="imageNav-photo"></a>
+                <a href="profit.html"><img src="../../Images/profitable_movies_genre.png" alt="Profitable Movies by Main Genre" class="imageNav-photo"></a>
+                <a href="topten.html"><img src="../../Images/top_10_movies.png" alt="Top 10 Most Profitable Movies" class="imageNav-photo"></a>
+                <a href="rating.html"><img src="../../Images/top_rated_movies_all.png" alt="Highest Rated Movies" class="imageNav-photo"></a>
+                <a href="spotify.html"><img src="../../spotify_graphs/Spotify_Logo_RGB_Green.png" alt="Spotify Holiday" class="imageNav-photo"></a>
+                <a href="shapeofyou.html"><img src="../../spotify_graphs/Spotify_Icon_RGB_White.png" alt="Spotify Holiday" class="imageNav-photo"></a>
+                <a href="../../site/index.html"><img src="../../spotify_graphs/Spotify_Logo_CMYK_Black.png" alt="Spotify Map" class="imageNav-photo"></a>
+              </div>
+            </div>
+          </section>
+          <!-- End of the Visualizations imageNav Area -->
+
+        </div>
+      </section>
+    </div>
+    <!-- End of container -->
+
+    <!-- Start of footer -->
+    <footer class="footer navbar-fixed-bottom">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+        &copy; Team 2 Coding Stuff
+      </p>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
